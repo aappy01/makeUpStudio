@@ -197,10 +197,10 @@ nav ul li a {
 
 @media screen and (max-width:770px) {
     body {
-        width: 100%;
+        max-width: 100%;
         overflow-x: hidden;
-
     }
+
     .banner-text h1 {
         font-size: 50px;
         margin: 2%;
@@ -208,13 +208,8 @@ nav ul li a {
     .banner-btn {
         margin: 100px 0;
     }
-
-    .banner-btn a {
-        display: block;
-        margin: 25px auto;
-    }
     #feature {
-        width: 100%;
+        width: 96%;
         height: auto;
         margin: 7% 2%;
     }
@@ -238,7 +233,7 @@ nav ul li a {
     .feature-img img {
         width: 85%;
         height: 500px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 7%;
+        margin-right: 7%;
     }
 }
