@@ -14,3 +14,13 @@ menuBtn.onclick = function(){
         menu.src = "./assets/menu.png"
     }
 }
+
+function myFunction(){
+    alert("Message Sent Successfully");
+}
+
+// All animations will take exactly 1500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1500,
+	speedAsDuration: true
+});
